@@ -1,11 +1,11 @@
-# Test
+# Test 123
 import random
 randnumber = random.randint (1,100)
 userguess = None
 guesses = 0
 while(userguess != randnumber):
     userguess = int(input("pls Enter your guess "))
-    guesses += 1
+    guesses  += 1
     if (userguess == randnumber):
      print("your guess is right!")
     else:
